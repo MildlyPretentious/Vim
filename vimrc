@@ -68,7 +68,7 @@ set ffs=unix,dos,mac
 
 
 " ------------------------------------
-" Text
+" Text formatting
 " ------------------------------------
 set nobackup
 set nowb
@@ -91,7 +91,7 @@ set wrap
 
 
 " ------------------------------------
-" Colors
+" Remappings
 " ------------------------------------
 map <C-j> <C-W>j
 map <C-h> <C-W>h
@@ -99,6 +99,7 @@ map <C-k> <C-W>k
 map <C-l> <C-W>l
 map <F7> :tabp<CR>
 map <F8> :tabn<CR>
+map <F9> :tabe<CR>
 map 0 ^
 noremap ^ g^
 noremap $ g$
